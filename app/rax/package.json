@@ -1,23 +1,22 @@
 {
-  "name": "@storybook/rax",
-  "version": "6.3.0-alpha.19",
+  "name": "@ali/trip-storybook-rax",
+  "version": "6.3.0",
   "description": "Storybook for Rax: Develop Rax Component in isolation.",
   "keywords": [
     "rax",
     "storybook"
   ],
-  "homepage": "https://github.com/storybookjs/storybook/tree/master/app/rax",
-  "bugs": {
-    "url": "https://github.com/storybookjs/storybook/issues"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/storybookjs/storybook.git",
+    "url": "git@gitlab.alibaba-inc.com:trip/storybook-rax.git",
     "directory": "app/rax"
   },
-  "funding": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/storybook"
+  "author": {
+    "name": "猿码",
+    "email": "chuanbin.ccb@alibaba-inc.com"
+  },
+  "publishConfig": {
+    "registry": "https://registry.antfin-inc.com"
   },
   "license": "MIT",
   "main": "dist/cjs/client/index.js",
@@ -65,9 +64,6 @@
   "peerDependencies": {
     "@babel/core": "*",
     "rax": "^0.4.0 || ^1.0.0"
-  },
-  "publishConfig": {
-    "access": "public"
   },
   "gitHead": "8ba485343b31df4e65fce2494a5f615d6d6c661d"
 }

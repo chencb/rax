@@ -1,6 +1,6 @@
 {
   "name": "rax-kitchen-sink",
-  "version": "6.3.0-alpha.19",
+  "version": "6.3.0",
   "private": true,
   "scripts": {
     "build": "build-scripts build",
